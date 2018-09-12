@@ -1,0 +1,367 @@
+:root {
+  --darkGrey: #444b57;
+}
+
+body {
+  background-color: white;
+}
+
+.inlineB {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+  color: black;
+}
+
+.mb150 {
+  margin-bottom: 150px;
+}
+
+p {
+  line-height: 27px;
+  font-size: 15px;
+}
+
+a {
+  color: #5b6b7b;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Header */
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+img#logo {
+  padding-top: 10px;
+  float: left;
+}
+
+#headerNavLeft {
+  display: inline-block;
+  float: left;
+  margin-top: -11px;
+  margin-left: 25px;
+  line-height: 6px;
+}
+
+#headerNavRight {
+  padding-top: 4px;
+  float: right;
+}
+
+#headerNavRight>li>a {
+  padding: 10px;
+}
+
+.btn-grey {
+  background-color: #a1abb2;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.btn-grey:hover {
+  background-color: var(--darkGrey);
+  color: white;
+}
+
+/* greyNav */
+.greyNav {
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+}
+
+/*Noortekaart*/
+h1 {
+  margin-top: 50px;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: +.5px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+#noortekaartNav {
+  margin-bottom: 65px;
+}
+
+#noortekaartNav>li>a {
+  font-size: 11px;
+  padding: 7px 15px;
+}
+
+.darkGrey {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: var(--darkGrey);
+  color: white;
+}
+
+.darkGrey:hover {
+  background-color: black;
+  color: white;
+}
+
+.smallCheck {
+  -webkit-padding-start: 0px;
+}
+
+ul.smallCheck>li {
+  list-style: none;
+  background-image: url("pildid/smallCheck.svg");
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding: 0 16px 8px 30px;
+  line-height: 27px;
+}
+
+.bigCard {
+  margin-top: 30px;
+  width: 382px;
+}
+
+.smallCard {
+  margin: 30px 5px 0px 5px;
+  width: 80px;
+}
+
+#hidden {
+  display: none;
+  font-size: 11px;
+  float: right;
+}
+
+/* Noortekaart on kõikvõimas */
+.card-columns {
+  margin-top: 30px;
+  column-count: 2;
+}
+
+div.card-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+div.card-block>img {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.card-text {
+  float: left;
+  width: 70%;
+}
+
+.card-text>a {
+  text-decoration: underline !important;
+  color: grey !important;
+}
+
+/* Soodustused noortekaardiga */
+div.col-lg-3>img {
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  text-decoration-line: underline !important;
+  text-decoration-style: dashed !important;
+  text-decoration-color: grey !important;
+  text-underline-position: under;
+}
+
+#advertisement {
+  float: right;
+  width: 295px;
+}
+
+/* Auhinnad noortekaardiga */
+div.col-md-8 img {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  width: 17%;
+}
+
+div.col-md-8 p {
+  display: inline-block;
+  float: left;
+  width: 75%;
+  margin-top: 15px;
+}
+
+.margin {
+  margin-bottom: 30px;
+  margin-top: 250px;
+}
+
+/* Hinnakiri ja tingimused*/
+table {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+td {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.tableBorder {
+  border-right: 1px solid #dee2e6;
+  width: 25%;
+}
+
+ul {
+  -webkit-padding-start: 20px;
+}
+
+/* LHV mobiilipank */
+div.col-md-6>img {
+  width: 300px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+div.col-md-6>ul {
+  margin-top: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.navbar-toggler {
+  display: none;
+  font-weight: 250;
+}
+
+div.navbar-expand-md>a {
+  line-height: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+nav.navbar-collapse>ul>li>a {
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+#contactIcos>a>img {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+footer>div.container>p {
+  margin-top: 30px;
+  font-size: 11.5px;
+  line-height: 18px;
+  color: #444b57;
+  opacity: 0.7;
+}
+
+footer>div.container>p>a {
+  text-decoration: underline;
+}
+
+/* media queries */
+@media (min-width: 576px) {
+  .container {
+    max-width: 98%;
+  }
+}
+
+@media (min-width: 990px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 496px) {
+  .card-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #headerNavRight, #headerNavLeft, .greyNav, .smallCard, h2 br {
+    display: none;
+  }
+
+  img#logo {
+    padding-top: 0;
+  }
+
+  #noortekaartNav {
+    margin-bottom: 5px;
+  }
+
+  #hidden {
+    display: inline-block;
+  }
+
+  #center {
+    text-align: center;
+  }
+
+  .bigCard {
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler {
+    display: inline-block;
+    float: right;
+  }
+
+  div.col-md-6>img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .bigCard {
+    width: 98%;
+  }
+
+  .card-columns {
+    column-count: 1;
+  }
+
+  .mb150 {
+    margin-bottom: 100px;
+  }
+}
